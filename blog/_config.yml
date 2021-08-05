@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Github.Blog 
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: kokbee
+language: kr
 timezone: ''
 
 # URL
@@ -105,4 +105,4 @@ theme: hexo-theme-laughing
 deploy:
   type: git
   repo: https://github.com/kokbee/kokbee.github.io.git
-  branch: hexo-dev
+  branch: hexo
