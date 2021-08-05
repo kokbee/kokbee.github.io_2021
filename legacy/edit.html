@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="kr"">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Kokbee Hive</title>
+        <link rel="icon" href="assets/img/Kokbee.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpeg" alt="" /></span>
+            </a>
+            <span style="color:#fff;" >Kim-MinSu (kokbee)</span>
+            <div class="mb-4">
+             <!-- About Start -->
+                <span class="d-none d-lg-block">    
+                    <a style="color:#fff;" href="mailto:kok2209@gmail.com"><i class="fa fa-envelope"></i></a>
+                    <a style="color:#fff;"  href="https://github.com/kokbee"><i class="fab fa-github"></i></a>
+                </span>
+            </div>
+            <!-- About End -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" onclick="window.location.href='https://kokbee.github.io/index.html'">Return Main</a></li>
+                </ul>
+            </div>
+        </nav>
+            <hr class="m-0" />
+            <!-- Projects start -->
+            <section class="resume-section" id="develop">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">입력 (Input)</h2>
+                    <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                          <span class="input-group-text" id="inputGroup-sizing-default">프로젝트명</span>
+                        </div>
+                        <input type="text" id="project" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-default">기술</span>
+                          </div>
+                          <input type="text" id="technical" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                      </div>
+                      <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-default">기간</span>
+                          </div>
+                          <input type="date" id="startdate" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                          <input type="date" id="enddate" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                      </div>
+                      <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-default">구성원</span>
+                          </div>
+                          <input type="text" id="team" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                      </div>
+                      <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-default">사용 대상</span>
+                          </div>
+                          <input type="text" id="target" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                      </div>
+                      <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-default" width="">개발 내용</span>
+                          </div>
+                          <textarea rows="13" id="develop" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default"></textarea>
+                      </div>
+                      <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-default">기타</span>
+                          </div>
+                          <textarea rows="8"  id="description" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default"></textarea>
+                      </div>
+                      <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-default">URL</span>
+                          </div>
+                          <input type="text" id="url" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                      </div>
+                      <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-default">이미지</span>
+                          </div>
+                          <input type="text" id="image" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                      </div>
+                      <div class="input-group mb-3">
+                          <button class="btn btn-primary" onclick="boardWhite();">입력하기</button>
+                      </div>
+                 </div>
+                </div>
+            </section>
+            <!-- Projects end -->
+
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.5/firebase.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-functions.js"></script>
+        
+
+        <script src="js/firebase.js"></script>
+
+    </body>
+</html>
