@@ -1,0 +1,18 @@
+.page-footer
+  .top
+    ul.social
+      each social in theme.social
+        li
+          a(href=social.link, title=social.name, target="_blank")
+            img(src=social.icon, width='25px', heigth='25px')
+  .bottom
+    p.copyright
+      | © #{new Date().getFullYear() -1}-#{new Date().getFullYear()} BLOG
+      if theme.copyright.record
+        br
+        small
+          a(href="#", target="_blank") #{theme.copyright.record}
+      if theme.copyright.laughing
+        small 
+          a(href="https://github.com/kokbee", target="_blank")
+            img(src="/images/Kokbee.png", width='12px', heigth='12px')

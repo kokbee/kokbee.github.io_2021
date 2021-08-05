@@ -1,0 +1,41 @@
+# Icon
+favicon: /Kokbee.ico
+# SEO
+keywords: Hexo, Gruntjs, Nodejs, Reactjs, Vuejs
+# Header
+page_background: /images/bg1.JPG
+page_menu_button: dark
+post_background: /images/pbg1.JPG 
+post_menu_button: light
+title_plancehold: 
+author:
+  head: /images/profile.jpeg
+  signature: Developer
+navication:
+  - name: About
+    link: /about
+  - name: study
+    link: /study
+  - name: Portfolio
+    link: /portfolio
+# content
+content_width: 1000
+# Footer
+## Social icon list: [facebook, twitter, weibo, wechat, github, stackoverflow, linkin, email, segmentfault, flickr, zhihu, disqus, douban, bilibili]
+social:
+  - name: Github
+    icon: /images/github.svg
+    link: https://github.com/kokbee
+  - name: Notion
+    icon: /images/notion.svg
+    link: https://www.notion.so/kokbee-3f7f92558c9343c986fe21138cb050ef
+
+# Duoshuo
+duoshuo:
+  enable: true
+  siteName: kokbee
+# Copyright
+copyright:
+  record: false
+  hexo: true
+  laughing: true
