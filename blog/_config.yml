@@ -4,16 +4,17 @@
 
 # Site
 title: Blog | Kokbee Hive 🚩 
-subtitle: ''
-description: ''
+subtitle: 'Backend-developer Blog&Project'
+description: 'Hi! there :)'
 keywords:
 author: kokbee
 language: kr
-timezone: ''
+timezone: 'Asia/Seoul'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://kokbee.github.io/
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -40,7 +41,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
