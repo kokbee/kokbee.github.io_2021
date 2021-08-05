@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Github.Blog 
+title: Blog | Kokbee Hive 🚩 
 subtitle: ''
 description: ''
 keywords:
@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://kokbee.github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -105,4 +105,4 @@ theme: hexo-theme-laughing
 deploy:
   type: git
   repo: https://github.com/kokbee/kokbee.github.io.git
-  branch: hexo
+  branch: main
