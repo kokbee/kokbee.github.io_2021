@@ -2,3 +2,5 @@
 .env
 /node_modules
 .pack-lock.json
+blog_old
+/blog/package-lock.json
