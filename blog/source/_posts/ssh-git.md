@@ -34,7 +34,7 @@ $ cat /home/{user}/.ssh/id_ed25519.pub
 {% asset_img img_center git_settings.png 150 80 "git_settings" "git_settings" %}
 <br />
 
-    3-2. ssh and gpu keys 클릭
+    3-2. ssh and gpg keys 클릭
 
 {% asset_img img_center git_settings_ssh.png 150 80 "git_settings_ssh" "git_settings_ssh" %}
 <br />
