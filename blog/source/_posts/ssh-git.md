@@ -44,7 +44,7 @@ $ cat /home/{user}/.ssh/id_ed25519.pub
 {% asset_img img_center git_ssh.png 300 50 "git_ssh" "git_ssh" %}
 <br />
 
-    3-4. ssh key에 아까 확인한 ket 복사&붙혀넣기
+    3-4. ssh key에 아까 cat으로 확인한 내용 복사&붙혀넣기
 
 {% asset_img img_center git_ssh_add.png 350 80 "git_ssh_add" "git_ssh_add" %}
 <br />
@@ -58,7 +58,7 @@ $ cat /home/{user}/.ssh/id_ed25519.pub
  공개키를 알아서 할 수 있는 건, 대응하는 개인키를 가진 사용자에게 인증 권한을 부여하는 일이며
  공개키가 공개된다고 보안 상 위험은 없다고 봐도 무방 그럼 이제 등록한 키가 잘 동작하는지 확인해볼 차례
 
-    4-1.  ~/.ssh에서 아래 내용을 입력하여 config 파일을 생성
+    4-1. ~/.ssh에서 아래 내용을 입력하여 config 파일을 생성
 
 ```bash
 Host github.com
@@ -71,7 +71,7 @@ User git
 {% asset_img img_center git_ssh_test.png 150 80 "git_ssh_test" "git_ssh_test" %}
 <br />
 
-    4-3.접속 성공!
+    4-3. 접속 성공!
 
 {% asset_img img_center git_ssh_success.png "git_ssh_success" "git_ssh_success" %}
 <br />
